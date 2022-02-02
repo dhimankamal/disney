@@ -8,10 +8,10 @@ import {
 function Brands () {
   return (
     <section className='flex flex-col md:flex-row justify-center items-center mt-10 gap-6 px-8 max-w-[1400px] mx-auto'>
-      <div className='card'>Magic Card</div>
+     
 
-      <MouseParallaxContainer>
-        <div className='brand group'>
+
+        <div className='brand group gcard'>
           <Image src='/images/disnep.png' layout='fill' objectFit='cover' />
           <video
             autoPlay
@@ -22,12 +22,9 @@ function Brands () {
             <source src='/videos/disney.mp4' type='video/mp4' />
           </video>
         </div>
-        <MouseParallaxChild factorX={0.3} factorY={0.35}>
-          <div className='moveborder  absolute bottom-0 '></div>
-        </MouseParallaxChild>
-      </MouseParallaxContainer>
 
-      <div className='brand group'>
+
+      <div className='gradient-border brand group '>
         <Image src='/images/pixar.png' layout='fill' objectFit='cover' />
         <video
           autoPlay
@@ -39,7 +36,7 @@ function Brands () {
         </video>
       </div>
 
-      <div className='brand group'>
+      <div className='gradient-border brand group '>
         <Image src='/images/marvel.png' layout='fill' objectFit='cover' />
         <video
           autoPlay
@@ -51,7 +48,7 @@ function Brands () {
         </video>
       </div>
 
-      <div className='brand group'>
+      <div className='gradient-border brand group '>
         <Image src='/images/starwars.png' layout='fill' objectFit='cover' />
         <video
           autoPlay
@@ -63,7 +60,7 @@ function Brands () {
         </video>
       </div>
 
-      <div className='brand group'>
+      <div className='gradient-border brand group '>
         <Image
           src='/images/national-geographic.png'
           layout='fill'
